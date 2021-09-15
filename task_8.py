@@ -1,4 +1,4 @@
-time = float(input("Input time in numbers: "))
+time = 133
 
 time = time % (24 * 3600)
 hour = time // 60
