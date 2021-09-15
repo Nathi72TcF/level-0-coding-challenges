@@ -1,4 +1,4 @@
-x = int(input())
+x = 3
 number = x % 2
 
 def even_or_odd():
