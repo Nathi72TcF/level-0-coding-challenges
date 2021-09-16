@@ -1,13 +1,11 @@
-a = int(input())
-b = int(input())
-c = int(input())
+def maximum_number(a, b, c):
+    if (a >= b) and (a >= c):
+        largest_number = a
+    elif (b >= a) and (b >= c):
+        largest_number = b
+    else:
+        largest_number = c
 
-numbers = []
+        print(largest_number)
 
-def maximum_number():
-    numbers.append(a)
-    numbers.append(b)
-    numbers.append(c)
-    print(max(numbers))
-
-maximum_number()
+maximum_number(3, 4, 5)

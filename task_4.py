@@ -1,10 +1,7 @@
-x = int(input())
-number = x % 2
-
-def even_or_odd():
-    if number > 0:
-        print (number, "is an odd number")
+def even_or_odd(number):
+    if number % 2 > 0:
+        print ("odd")
     else:
-        print (number, "is an even number")
+        print ("even")
 
-even_or_odd()
+even_or_odd(3)

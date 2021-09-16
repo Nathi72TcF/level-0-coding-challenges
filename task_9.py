@@ -1,4 +1,4 @@
-words = input('Enter your words: ' )
+words = "Umuzi"
 
 def count_vowels():
     for letter in words:

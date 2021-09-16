@@ -1,6 +1,4 @@
-x = str(input())
+def hello(name):
+    print("Hello %s!" % (name))
 
-def hello():
-    print("Hello", x)
-
-hello()
+hello("Nkosinathi")
