@@ -1,8 +1,13 @@
-words = "Umuzi"
+vowels = []
 
-def count_vowels():
+def count_vowels(words):
     for letter in words:
         if letter in 'aeiou':
-            print(letter)
+            vowels.append(letter.lower())
+            print(set(vowels))
+        if letter in 'AEIOU':
+            vowels.append(letter.lower())
+            print(set(vowels))
 
-count_vowels()
+count_vowels("BOOT camp")
+# count_vowels("Umuzi")

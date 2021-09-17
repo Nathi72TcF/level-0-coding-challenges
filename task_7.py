@@ -2,20 +2,19 @@
 # fahrenheit = (9/5 * x) + 32        Formula
 
 x = "F"      # F is selected
-y = 20
 
-def convert_to_celsius():
+def convert_to_celsius(x, y):
     c = (y - 32) * 5/9
     return c
 
 
-def convert_to_fahrenheit():
+def convert_to_fahrenheit(x, y):
     f = (9/5 * y) + 32
     return f
 
 
 if x == "F":
-    convert_to_fahrenheit()
+    convert_to_fahrenheit(x, 20)
 
 if x == "C":
-    convert_to_celsius()
+    convert_to_celsius(x, 20)

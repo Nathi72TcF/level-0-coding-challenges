@@ -4,7 +4,7 @@ y = str(input('Enter your words B: ' ))
 result = []
 
 def check_common_chars():
-    if(len(x) < len(y)): 
+    if(x != '' and y != ''): 
 	    for i in x: 
 		    if(i in y): 
 			    result.append(i) 

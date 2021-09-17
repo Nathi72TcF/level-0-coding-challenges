@@ -5,6 +5,9 @@ def convert_time(time):
     minutes = time // 60
     time %= 60
     seconds = time
-    print("%02d hours, %02d minutes, %02d seconds" % (hour, minutes, seconds))
+    if hour == 1:
+        print("%02d hour %02d minutes %02d seconds" % (hour, minutes, seconds))
+    else:
+        print("%02d hours %02d minutes %02d seconds" % (hour, minutes, seconds))
 
 convert_time(133)
