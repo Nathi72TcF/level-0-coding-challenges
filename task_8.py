@@ -10,4 +10,4 @@ def convert_time(time):
     else:
         print("%02d hours %02d minutes %02d seconds" % (hour, minutes, seconds))
 
-convert_time(133)
+convert_time(71)

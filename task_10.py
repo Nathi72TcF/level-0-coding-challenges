@@ -12,5 +12,5 @@ def check_common_chars():
 	    for i in y: 
 		    if(i in x): 
 			    result.append(i) 
-    print("Common character are:", *result) 
+    print("Common letters are:", *result) 
 check_common_chars()

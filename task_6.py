@@ -1,10 +1,5 @@
 def maximum_number(a, b, c):
-    if (a >= b) and (a >= c):
-        largest_number = a
-    elif (b >= a) and (b >= c):
-        largest_number = b
-    else:
-        largest_number = c
+        largest_number = max(a, b, c)
 
         return largest_number
 
