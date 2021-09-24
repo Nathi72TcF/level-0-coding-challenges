@@ -1,9 +1,6 @@
-x = str(input('Enter your words A: ' ))
-y = str(input('Enter your words B: ' ))
-
 result = []
 
-def check_common_chars():
+def check_common_chars(x, y):
     if(x != '' and y != ''): 
 	    for i in x: 
 		    if(i in y): 
@@ -13,4 +10,4 @@ def check_common_chars():
 		    if(i in x): 
 			    result.append(i) 
     print("Common letters are:", *result) 
-check_common_chars()
+check_common_chars('house', 'computers')

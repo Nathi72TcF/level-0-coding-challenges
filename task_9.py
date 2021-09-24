@@ -6,10 +6,10 @@ def count_vowels(words):
             vowels.append(letter.lower())
             vowel_string = vowels
             print(*vowel_string, sep= '')
-        if letter in 'AEIOU':
+        elif letter in 'AEIOU':
             vowels.append(letter.lower())
             vowel_string = vowels
-            print(*vowel_string, sep='')
+            # print(*vowel_string, sep='')
 
 count_vowels("BOOT camp")
 # count_vowels("Umuzi")
