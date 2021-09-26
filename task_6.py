@@ -6,7 +6,6 @@ def maximum_number(a, b, c):
     elif (c >= a) and (c >= b):
             largest_number = c
             
-            print(largest_number)
             return largest_number
 
 maximum_number(3, 4, 5)
