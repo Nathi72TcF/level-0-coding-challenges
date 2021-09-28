@@ -6,7 +6,6 @@ def maximum_number(*arguments):
     for i in duplicates:
         if i not in small_numbers:
             number = i
-    print(number)
     return number
 
 maximum_number(5, 4, 5)
