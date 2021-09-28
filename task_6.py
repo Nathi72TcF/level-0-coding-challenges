@@ -1,11 +1,12 @@
-def maximum_number(a, b, c):
-    if (a >= b) and (a >= c):
-        largest_number = a
-    elif (b >= a) and (b >= c):
-        largest_number = b
-    elif (c >= a) and (c >= b):
-            largest_number = c
-            
-            return largest_number
+def maximum_number(*arguments):
+    number = 0
+    *create_list, = arguments 
+    duplicates = [i for i in create_list]
+    small_numbers = [i for i in create_list for j in duplicates if i < j]
+    for i in duplicates:
+        if i not in small_numbers:
+            number = i
+    print(number)
+    return number
 
-maximum_number(3, 4, 5)
+maximum_number(5, 4, 5)
