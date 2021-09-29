@@ -8,6 +8,7 @@ def check_common_chars(x, y):
     else: 
 	    for i in y: 
 		    if(i in x): 
-			    result.append(i) 
-    print("Common letters are:", *result) 
+			    result.append(i,)
+
+    print("Common letters are:", *result, sep = ',')
 check_common_chars('house', 'computers')
