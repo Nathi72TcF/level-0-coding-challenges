@@ -1,5 +1,3 @@
-# import math
-
 def convert_time(time):
     hour = int(time / 60)
     minutes = time % 60

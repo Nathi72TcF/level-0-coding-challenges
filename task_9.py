@@ -9,4 +9,3 @@ def count_vowels(string):
     print(f"Vowels: {', '.join(letter for letter in duplicates[::-1])}") 
 
 count_vowels("BOOT camp")
-# count_vowels("Umuzi")

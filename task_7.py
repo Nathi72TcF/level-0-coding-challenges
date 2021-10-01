@@ -1,6 +1,3 @@
-# celsius = (c - 32) * 5/9       Formula
-# fahrenheit = (9/5 * x) + 32        Formula
-
 def convert_to_celsius(y):
     c = (y - 32) * 5/9
     return c
